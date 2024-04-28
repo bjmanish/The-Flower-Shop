@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+body{
+    font-family: "Kalam",cursive;
+    background: radial-gradient(circle, rgba(240,220,230,0.5) 0% , rgba(140,180,236,0.6) 0%);
+}
+.navbar{
+    background: rgb(246,222,233);
+    background: radial-gradient(
+        circle,
+        rgba(246,222,233,1) 0%, 
+        rgba(135,176,230,1) 20%
+    );
+}
+
+.navbar-brand{
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.navbar-nav .nav-link {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.navbar-nav .nav-link:hover{
+    color: antiquewhite;
+    
+}
+
+.c-img{
+    width: 100%;
+    height: 700px;
+}
+
+section{
+    color: black;
+}
+
+.showcase-item{
+    background: rgb(74, 177, 232);
+    background: radial-gradient(
+        circle, 
+        rgb(244, 231, 237, 1) 0%
+        rgb(204, 6, 222,0.8) 30%
+    );
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.showcase-item:hover{
+    transform: scale(1.05);
+}
+
+.testinomial{
+    background: rgb(121, 3, 145);
+    background: radial-gradient(
+        circle,
+        rgba(246,222,233,1) 0%, 
+        rgb(25, 112, 227, 0.6) 20%
+    );
+    text-align: center;
+    padding: 30px;
+}
+
+.testinomial img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.pricing{
+    margin-top: 50px;
+}
+
+.pricing-card{
+    background: rgb(156, 100, 235);
+    background: radial-gradient(
+        circle,
+        rgb(178, 141, 197,1) 0%, 
+        rgba(100, 50,250,1) 80%
+    ); 
+    border-radius: 10px;
+    border: 2px solid #e9ecef;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover{
+    transform: scale(1.05);
+}
+
+#contactus{
+    margin-top: 50px;
+    padding: 10px;
+}
